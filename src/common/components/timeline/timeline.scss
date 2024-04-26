@@ -1,0 +1,11 @@
+.timeline {
+  width: 100%;
+
+  &.timeline-vertical:where(.timeline-snap-icon) > li {
+    --timeline-row-start: 0rem;
+  }
+
+  .timeline-vertical > li > hr {
+    height: 101%;
+  }
+}

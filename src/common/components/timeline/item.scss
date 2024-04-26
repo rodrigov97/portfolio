@@ -1,0 +1,52 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/theme.scss";
+
+.timeline-item {
+  width: 100%;
+
+  .content {
+    margin: 0rem 1rem;
+    min-height: 9.375rem;
+
+    div {
+      font-style: italic;
+    }
+
+    h3 {
+      color: $primary;
+      font-size: 1.125rem;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  .timeline-start {
+    text-align: end;
+  }
+
+  .timeline-middle {
+    .dot {
+      background-color: $primary;
+      border-radius: 100%;
+      height: 0.875rem;
+      width: 0.875rem;
+    }
+  }
+
+  hr {
+    background-color: $primary;
+    border-radius: 0rem;
+    margin-bottom: -2px;
+    margin-top: -2px;
+  }
+
+  @include sm {
+    .timeline-start {
+      text-align: start;
+    }
+  }
+}

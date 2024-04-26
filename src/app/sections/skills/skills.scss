@@ -1,0 +1,81 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/theme.scss";
+
+.skills {
+  min-height: 100dvh;
+  padding: 2rem 5rem;
+
+  .title {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+
+    .line {
+      background-color: $primary;
+      height: 0.4rem;
+      margin-bottom: 0.6rem;
+      width: 12.5rem;
+    }
+
+    h2 {
+      font-size: 1.875rem;
+      font-weight: 700;
+    }
+  }
+
+  .grid {
+    .skill {
+      display: flex;
+      width: 100%;
+
+      div {
+        width: 50%;
+      }
+
+      .skill-progress {
+        align-items: center;
+        display: flex;
+        width: 50%;
+
+        .skill-progress-count {
+          background-color: #353535;
+          border-radius: 0rem;
+          font-size: 0.875rem;
+          height: 0.875rem;
+          width: 100%;
+
+          .bar {
+            background-color: $primary;
+            height: 100%;
+          }
+        }
+
+        .counter {
+          font-size: 0.875rem;
+          margin-left: 0.2rem;
+        }
+      }
+    }
+  }
+
+  @include sm {
+    padding: 1rem;
+
+    .title {
+      padding-bottom: 2rem;
+
+      .icon-container {
+        margin-right: 1rem;
+
+        .title-icon {
+          height: 1.875rem;
+        }
+      }
+
+      h2 {
+        font-size: 1.375rem;
+      }
+    }
+  }
+}

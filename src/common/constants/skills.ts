@@ -1,0 +1,36 @@
+import Skill from '../interfaces/skill';
+
+const SKILLS: Skill[] = [
+  { name: 'HTML', progress: 90 },
+  { name: 'Typescript', progress: 90 },
+  { name: 'Angular', progress: 85 },
+  { name: 'CSS', progress: 80 },
+  { name: 'Git', progress: 80 },
+  { name: 'JavaScript', progress: 80 },
+  { name: 'GitHub', progress: 70 },
+  { name: 'Material UI', progress: 70 },
+  { name: 'Node.js', progress: 70 },
+  { name: 'React.js', progress: 70 },
+  { name: 'RxJS', progress: 70 },
+  { name: 'GitLab', progress: 65 },
+  { name: 'Inglês', progress: 65 },
+  { name: 'Redux Toolkit', progress: 65 },
+  { name: 'DaisyUI', progress: 50 },
+  { name: 'ESLint', progress: 50 },
+  { name: 'JQuery', progress: 50 },
+  { name: 'MySQL', progress: 50 },
+  { name: 'SQL Server', progress: 50 },
+  { name: '.NET Core', progress: 40 },
+  { name: '.NET Framework', progress: 40 },
+  { name: '.NET MVC', progress: 40 },
+  { name: 'C#', progress: 40 },
+  { name: 'Docker', progress: 40 },
+  { name: 'Kanban', progress: 40 },
+  { name: 'Scrum', progress: 40 },
+  { name: 'NestJs', progress: 35 },
+  { name: 'NextJs', progress: 35 },
+  { name: 'ASP.NET', progress: 30 },
+  { name: 'Azure DevOps', progress: 25 },
+];
+
+export default SKILLS;
